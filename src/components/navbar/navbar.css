@@ -1,0 +1,83 @@
+.navbar_section {
+    background-image: url('../../../public/navbar/navbar1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 31px 0 14px 0;
+}
+
+.forLogo {
+    display: flex;
+    gap: 26px;
+}
+
+.forLogo img {
+    width: 99px;
+    height: 82px;
+}
+
+.company_name {
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+
+.forItems {
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 20px; */
+    gap: 38px;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar_item_link {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.navbar_cursor{
+    width: 22px;
+    height: 24px;
+}
+.forFlag{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.flag_img {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar_lang {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 14px;
+}
+
+.flag_cursor{
+    width: 20px;
+    height: 20px;
+}
